@@ -1,0 +1,19 @@
+1. SQL keywords are NOT case sensitive: select is the same as SELECT.
+
+2.Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
+3.SELECT column1, column2, ...
+FROM table_name;
+
+4.Return all the columns from the Customers table:
+
+SELECT * FROM Customers;
+
+5.The SELECT DISTINCT statement is used to return only distinct (different) values.
+Select all the different countries from the "Customers" table:
+
+SELECT DISTINCT Country FROM Customers;
+Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+
+Syntax
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
